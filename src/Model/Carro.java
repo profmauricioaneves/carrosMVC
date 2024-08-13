@@ -29,4 +29,12 @@ public class Carro {
     public void setAno(Integer ano) {
         this.ano = ano;
     }
+
+    @Override
+    public String toString() {
+        return  "placa='" + placa + '\'' +
+                ", modelo='" + modelo + '\'' +
+                ", ano=" + ano +
+                '}';
+    }
 }
